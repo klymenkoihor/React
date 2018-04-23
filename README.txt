@@ -20,3 +20,6 @@ git add .
 git commit -m "first commit"
 git remote add origin https://github.com/klymenkoihor/React.git
 git push -u origin master
+-------------------------------------------------------------------------------------------
+-----additional packages-----
+npm install --save react-router-dom
