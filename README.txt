@@ -24,7 +24,9 @@ git push -u origin master
 -----additional packages-----
 npm install --save react-router-dom
 
-<Router>
-</Router>
-<Route path=>
 <Link to=>
+
+<Router>
+    <Route path=>
+</Router>
+
