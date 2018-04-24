@@ -1,3 +1,6 @@
+-----DICTIONARY-----
+bundle - середовище, куди імпортуються компоненти. Робочий scope по суті.
+
 INSTALL MANUAL
 -----React app-----
 https://github.com/facebook/create-react-app
