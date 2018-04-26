@@ -6,7 +6,7 @@ INSTALL MANUAL
 https://github.com/facebook/create-react-app
 
 -----install react app-----
-npx create-react-app my-app
+npx create-react-app my-app     //boilerPlate
 cd my-app
 npm start
 
