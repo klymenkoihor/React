@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-import Button from './Button';
-
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Button from './components/Button';
+import './App.css';
 
 const BasicExample = () => (
     <Router>
@@ -19,6 +16,9 @@ const BasicExample = () => (
                 <li>
                     <Link to="/topics">Topics</Link>
                 </li>
+                <li>
+                    <Link to="/buttons">Buttons</Link>
+                </li>
             </ul>
 
             <hr />
@@ -26,6 +26,7 @@ const BasicExample = () => (
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/topics" component={Topics} />
+            <Route path="/buttons" component={Button} />
         </div>
     </Router>
 );
