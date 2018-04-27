@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Button from './components/Button';
+import Button from './components/Button/Button';
 import './App.css';
 
 const BasicExample = () => (
@@ -26,7 +26,12 @@ const BasicExample = () => (
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/topics" component={Topics} />
-            <Route path="/buttons" component={Button} />
+            <Route path="/buttons" render={()=>
+                <div>
+                <Button size="small" color="red">Small button</Button>
+                <Button color="blue" size="big">Big button</Button>
+                </div>
+            } />
         </div>
     </Router>
 );
