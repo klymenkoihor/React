@@ -28,8 +28,8 @@ const BasicExample = () => (
             <Route path="/topics" component={Topics} />
             <Route path="/buttons" render={()=>
                 <div>
-                <Button size="small" color="red">Small button</Button>
-                <Button color="blue" size="big">Big button</Button>
+                    <Button size="small" color="red">Small button</Button>
+                    <Button color="blue" size="big">Big button</Button>
                 </div>
             } />
         </div>
