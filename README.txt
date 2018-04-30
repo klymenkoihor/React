@@ -38,10 +38,12 @@ npm install --save react-router-dom
 1. Два елементи огортаються одним спільним.
 2. return jsx береться в дужки
 
-return (
-    <div>
-        <h1>Заголовок</h1>
-        <h2>Підзаголовок</h2>
-    </div>
-);
+const Comp = () => {
+    return (
+        <div>
+            <h1>Заголовок</h1>
+            <Article /> - якийсь існуючий компонент
+        </div>
+    );
+}
 
