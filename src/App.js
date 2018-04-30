@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Button from './components/Button/Button';
 import './App.css';
+import Accordeon from './components/Accordeon/Accordeon';
 
 const BasicExample = () => (
     <Router>
@@ -19,6 +20,9 @@ const BasicExample = () => (
                 <li>
                     <Link to="/buttons">Buttons</Link>
                 </li>
+                <li>
+                    <Link to="/accordeon">Accordeon</Link>
+                </li>
             </ul>
 
             <hr />
@@ -32,6 +36,7 @@ const BasicExample = () => (
                     <Button color="blue" size="big">Big button</Button>
                 </div>
             } />
+            <Route path="/accordeon" component={Accordeon} />
         </div>
     </Router>
 );
