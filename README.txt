@@ -34,3 +34,14 @@ npm install --save react-router-dom
     <Route path=>
 </Router>
 
+-----JSX-----
+1. Два елементи огортаються одним спільним.
+2. return jsx береться в дужки
+
+return (
+    <div>
+        <h1>Заголовок</h1>
+        <h2>Підзаголовок</h2>
+    </div>
+);
+
