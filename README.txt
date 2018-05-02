@@ -27,6 +27,14 @@ git push -u origin master
 -----additional packages-----
 npm install --save react-router-dom
 
+Установка через package.json dependencies:
+    "redux": "^4.0.0",
+    "react-final-form": "^3.4.0",
+    "react-router": "^4.2.0",
+    "react-redux": "^5.0.7",
+    "styled-components": "^3.2.6",
+    "react-firebase": "^2.2.8"
+
 -------------------------------------------------------------------------------------------
 <Link to=>
 
