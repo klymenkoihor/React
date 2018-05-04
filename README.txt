@@ -47,7 +47,7 @@ npm install --save react-router-dom
 2. return jsx береться в дужки
 3. js в фігурних дужках в межах jsx
 4. style в фігурних дужках як js код + вставка стилів об'єктом, через це: {{}}
-5. в усіх компонентах імпорт React!
+5. в усіх компонентах імпорт React! Бо Babel буде конвертувати jsx в React.createElement
 
 
 const Comp = () => {
