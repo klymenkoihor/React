@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Button from './components/Button/Button';
+import Button from './components/Button';
 import './App.css';
-import Accordeon from './components/Accordeon/Accordeon';
+import Accordeon from './components/Accordeon';
 
 const BasicExample = () => (
     <Router>
