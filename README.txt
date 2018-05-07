@@ -27,6 +27,9 @@ git push -u origin master
 -----additional packages-----
 npm install --save react-router-dom
 
+axios - асинхронна ліба - async await
+
+
 Установка через package.json dependencies:
     "redux": "^4.0.0",
     "react-final-form": "^3.4.0",
