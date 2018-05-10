@@ -21,12 +21,12 @@ git push -u origin master
 -------------------------------------------------------------------------------------------
 
 -----install react app-----
-npx create-react-app my-app     //boilerPlate
+npx create-react-app my-app     //boilerPlate    - установка Реакта
 cd my-app
 npm start
 
 -----additional packages-----
-npm install --save react-router-dom
+npm install --save react-router-dom    - рендер реактівських елементів
 
 axios - асинхронна ліба - async await
 
