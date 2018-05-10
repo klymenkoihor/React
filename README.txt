@@ -5,11 +5,6 @@ INSTALL MANUAL
 -----React app-----
 https://github.com/facebook/create-react-app
 
------install react app-----
-npx create-react-app my-app     //boilerPlate
-cd my-app
-npm start
-
 -----install new npm package-----
 npm install
 --save
@@ -24,6 +19,12 @@ git commit -m "first commit"
 git remote add origin https://github.com/klymenkoihor/React.git
 git push -u origin master
 -------------------------------------------------------------------------------------------
+
+-----install react app-----
+npx create-react-app my-app     //boilerPlate
+cd my-app
+npm start
+
 -----additional packages-----
 npm install --save react-router-dom
 
