@@ -6,10 +6,10 @@ INSTALL MANUAL
 https://github.com/facebook/create-react-app
 
 -----install new npm package-----
-npm install
+npm install (i)
 --save
 --save-dev
---global
+--global (-g)
 --production - without devDependencies
 
 -----git exist code-----
