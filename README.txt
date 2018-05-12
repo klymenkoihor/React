@@ -61,10 +61,10 @@ npm install firebase --save-dev     - серверна частина firebase
 
 
 ----- import ----- export -----
-import React from 'react'                                                   \\import DefaultComponent from "node_modules_folder"
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"     \\import NotDefaultComponent from "node_modules_folder"
-import "./App.css"                                                          \\import css not from "node_modules_folder"
-import  App from "./App"                                                    \\import Component form "./ProperFolder"
+import React from 'react'                                      \\import DefaultComponent from "node_modules_folder"
+import { BrowserRouter as Router } from "react-router-dom"     \\import NotDefaultComponent from "node_modules_folder"
+import "./App.css"                                             \\import css not from "node_modules_folder"
+import  App from "./App"                                       \\import Component form "./ProperFolder" //файли js додаються без розширення
 
 export default App                          \\export DefaultComponent
 export Component                            \\export NotDefaultComponent
