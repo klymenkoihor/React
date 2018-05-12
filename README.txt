@@ -24,11 +24,11 @@ git push -u origin master
 npx create-react-app my-app     //boilerPlate    - установка Реакта
 cd my-app
 npm start
-
------automatically installed packages:
+--automatically installed packages:
 react
 react-dom
 react-scripts
+
 -----additional packages-----
 npm install --save react-router-dom    - рендер реактівських елементів
 
