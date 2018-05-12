@@ -34,6 +34,7 @@ npm install --save react-router-dom    - рендер реактівських �
 
 axios - асинхронна ліба - async await
 
+npm install firebase --save-dev     - серверна частина firebase
 
 Установка через package.json dependencies:
     "redux": "^4.0.0",
