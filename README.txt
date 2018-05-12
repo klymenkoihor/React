@@ -44,7 +44,7 @@ npm install firebase --save-dev     - серверна частина firebase
     "styled-components": "^3.2.6",
     "react-firebase": "^2.2.8"
 
--------------------------------------------------------------------------------------------
+-------Router--------
 <Link to=>
 
 <Router>
@@ -58,6 +58,16 @@ npm install firebase --save-dev     - серверна частина firebase
 4. style в фігурних дужках як js код + вставка стилів об'єктом, через це: {{}}
 5. в усіх компонентах імпорт React! Бо Babel буде конвертувати jsx в React.createElement
 6. в компоненті, що рендериться, імпорт ReactDOM
+
+
+----- import ----- export -----
+import React from 'react'                                                   \\import DefaultComponent from "node_modules_folder"
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"     \\import NotDefaultComponent from "node_modules_folder"
+import "./App.css";                                                         \\import Data not from "node_modules_folder"
+
+export default App                          \\export DefaultComponent
+export Component                            \\export NotDefaultComponent
+
 -----Простий компонент-----
 const Comp = () => {
     return (
