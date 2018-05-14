@@ -33,6 +33,9 @@ react-scripts
 npm install --save react-router-dom    - рендер реактівських елементів
 
 axios - асинхронна ліба - async await
+helmet - хедери
+chartjs2 - графіки
+rechart - графіки
 
 npm install firebase --save-dev     - серверна частина firebase
 
