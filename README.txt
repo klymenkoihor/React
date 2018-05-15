@@ -36,6 +36,7 @@ axios - асинхронна ліба - async await
 helmet - хедери
 chartjs2 - графіки
 rechart - графіки
+sockette - websocket для react
 
 npm install firebase --save-dev     - серверна частина firebase
 
