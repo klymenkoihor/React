@@ -32,11 +32,15 @@ react-scripts
 -----additional packages-----
 npm install --save react-router-dom    - рендер реактівських елементів
 
+
+npm i bootstrap - підключення в App.js - import 'bootstrap/dist/css/bootstrap.css';
+
 axios - асинхронна ліба - async await
 helmet - хедери
 chartjs2 - графіки
 rechart - графіки
 sockette - websocket для react
+redux-thunk - middleware for redux
 
 npm install firebase --save-dev     - серверна частина firebase
 
