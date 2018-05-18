@@ -88,4 +88,13 @@ const Comp = () => {
 }
 
 
+-----FIREBASE DEPLOYMENT-----
+Перейти в папку проекта
+npm run build //створюється білд
+
+firebase login
+firebase init
+обрати папку build
+додаткові питання - ні
+firebase deploy - https://crypto-data-c0479.firebaseapp.com
 
