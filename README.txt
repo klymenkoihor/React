@@ -91,6 +91,8 @@ const Comp = () => {
 
 
 -----FIREBASE DEPLOYMENT-----
+Спочатку поставити глобально: npm install -g firebase-tools
+
 Перейти в папку проекта
 npm run build //створюється білд
 
