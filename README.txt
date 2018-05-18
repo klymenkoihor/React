@@ -74,6 +74,8 @@ import { BrowserRouter as Router } from "react-router-dom"     \\import NotDefau
 import "./App.css"                                             \\import css not from "node_modules_folder"
 import  App from "./App"                                       \\import Component form "./ProperFolder" //файли js додаються без розширення
 
+import 'bootstrap/dist/css/bootstrap.css';                     \\ставиться просто пакет bootstrap
+
 export default App                          \\export DefaultComponent
 export Component                            \\export NotDefaultComponent
 
