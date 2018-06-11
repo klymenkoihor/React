@@ -21,7 +21,7 @@ git push -u origin master
 -------------------------------------------------------------------------------------------
 
 -----install react app-----
-npx create-react-app my-app     //boilerPlate    - установка Реакта
+npx create-react-app my-app     //boilerPlate    - установка Реакта  //my-app - назва застосунку
 cd my-app
 npm start                       //старт сервера React
 --automatically installed packages:
