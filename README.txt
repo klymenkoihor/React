@@ -29,6 +29,10 @@ react
 react-dom
 react-scripts
 
+-----start existing/downloaded app-----
+npm i           //установка залежностей
+npm start       //старт на localhost:3000
+
 -----additional packages-----
 npm install --save react-router-dom    - рендер реактівських елементів
 
