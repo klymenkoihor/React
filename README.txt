@@ -32,8 +32,8 @@ react-scripts
 -----start existing/downloaded app-----
 npm i           //установка залежностей
 npm start       //старт на localhost:3000
-npm run server  //запуск на webpack
 
+npm run server  //запуск на webpack
 
 -----additional packages-----
 npm install --save react-router-dom    - рендер реактівських елементів
