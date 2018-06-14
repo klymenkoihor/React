@@ -12,6 +12,9 @@ npm install (i)
 --global (-g)
 --production - without devDependencies
 
+-----git copy repository to comp-----
+git clone https://github.com/klymenkoihor/imgur.git
+
 -----git exist code-----
 git init
 git add .
