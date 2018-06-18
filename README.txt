@@ -103,7 +103,7 @@ const Comp = () => {
 Спочатку поставити глобально: npm install -g firebase-tools
 
 Перейти в папку проекта
-npm run build //створюється білд
+npm run build //створюється білд проекта
 
 firebase login
 firebase init
