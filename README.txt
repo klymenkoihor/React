@@ -100,9 +100,10 @@ const Comp = () => {
 
 
 -----FIREBASE DEPLOYMENT-----
+Створити проект на firebase або можна через консоль в процесы деплоя
 Спочатку поставити глобально: npm install -g firebase-tools
 
-Перейти в папку проекта
+Перейти в папку локального проекта
 npm run build //створюється білд проекта
 
 firebase login
