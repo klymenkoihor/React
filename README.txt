@@ -44,7 +44,7 @@ npm install --save react-router-dom    - рендер реактівських �
 
 npm i bootstrap - підключення в App.js - import 'bootstrap/dist/css/bootstrap.css';
 
-axios - асинхронна ліба замість - async await
+axios - асинхронна ліба замість - async await - це в коробцы з ES7
 helmet - хедери
 chartjs2 - графіки
 rechart - графіки
