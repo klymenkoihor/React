@@ -29,7 +29,7 @@ cd my-app
 npm start                       //старт сервера React
 --automatically installed packages:
 react
-react-dom
+react-dom                       //ліба, яка рендерить реакт
 react-scripts
 
 -----start existing/downloaded app-----
@@ -41,9 +41,9 @@ npm run server  //запуск на webpack
 -----additional packages-----
 npm install --save react-router-dom    - рендер реактівських елементів
 
-
 npm i bootstrap - підключення в App.js - import 'bootstrap/dist/css/bootstrap.css';
 
+react final form - downshift - множинний селект РОЗІБРАТИСЯ!
 axios - асинхронна ліба замість - async await - це в коробцы з ES7
 helmet - хедери
 chartjs2 - графіки
