@@ -50,6 +50,7 @@ chartjs2 - графіки
 rechart - графіки
 sockette - websocket для react
 redux-thunk - middleware for redux
+vanilla-tilt.js - 3D анімашки на css
 
 npm install firebase --save-dev     - серверна частина firebase
 
@@ -108,6 +109,10 @@ children в props React розуміє, що це вміст компонент�
     text
 </Comp>
 
+setState - асинхронна функція. Щоб нормально оновлювати стейт, треба в setState передавати функцію з аргументом prevState
+
+
+
 -----FIREBASE DEPLOYMENT-----
 Створити проект на firebase або можна через консоль в процесі деплоя
 Спочатку поставити глобально: npm install -g firebase-tools
@@ -125,4 +130,4 @@ firebase deploy - https://crypto-data-c0479.firebaseapp.com
 -----GraphDB----- 4034 відео
  фреймворк для graphDB
  можна зробити фронт без бека
- neo4j
+ Neo4j-GraphQL Extension
