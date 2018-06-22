@@ -122,7 +122,7 @@ firebase init
 firebase deploy - https://crypto-data-c0479.firebaseapp.com
 
 
------GraphDB-----
+-----GraphDB----- 4034 відео
  фреймворк для graphDB
  можна зробити фронт без бека
  neo4j
