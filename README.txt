@@ -77,7 +77,6 @@ npm install firebase --save-dev     - серверна частина firebase
 5. в усіх компонентах імпорт React! Бо Babel буде конвертувати jsx в React.createElement
 6. в компоненті, що рендериться, імпорт ReactDOM. ReactDOM рендерить компоненти React
 
-
 ----- import ----- export -----
 import React from 'react'                                      \\import DefaultComponent from "node_modules_folder"
 import { BrowserRouter as Router } from "react-router-dom"     \\import NotDefaultComponent from "node_modules_folder"
