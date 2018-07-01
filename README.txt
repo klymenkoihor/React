@@ -108,7 +108,10 @@ class Compon extends Component {
     }
 }
 //    в конструкторі:
-
+    constructor(){
+    super();
+    this.handleSome = this.handleSome.bind(this);
+    }
 
 children в props React розуміє, що це вміст компонента, напр текст для діви: <div>text</div>
 ...rest - решта пропсів. Синтаксис {...rest} відповідає синтаксису id = {rest.id}
@@ -136,7 +139,6 @@ firebase init
 обрати папку build
 додаткові питання - ні
 firebase deploy - https://crypto-data-c0479.firebaseapp.com
-
 
 -----GraphDB----- 4034 відео
  фреймворк для graphDB
