@@ -107,6 +107,8 @@ class Compon extends Component {
     count: 0
     }
 }
+//    Кол-бек функції прив'язуються через bind(this) в момент передачі пропсів молодшому компоненту
+
 //    в конструкторі:
     constructor(){
     super();
