@@ -27,7 +27,7 @@ git push -u origin master
 npx create-react-app my-app     //boilerPlate    - установка Реакта  //my-app - назва застосунку
 cd my-app
 npm start                       //старт сервера React
---automatically installed packages:
+--automatically installed packages from the box:
 react
 react-dom                       //ліба, яка рендерить реакт
 react-scripts
@@ -43,7 +43,7 @@ npm install --save react-router-dom    - рендер реактівських �
 
 npm i bootstrap - підключення в App.js - import 'bootstrap/dist/css/bootstrap.css';
 
-react final form - downshift - множинний селект РОЗІБРАТИСЯ!
+react final form - ліба по формах - downshift - множинний селект РОЗІБРАТИСЯ!
 axios - асинхронна ліба замість - async await - це в коробцы з ES7
 helmet - хедери
 chartjs2 - графіки
