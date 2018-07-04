@@ -52,6 +52,7 @@ sockette - websocket для react
 redux-thunk - middleware for redux
 vanilla-tilt.js - 3D анімашки на css
 prettier - форматтер коду
+react-router-dom - роутер
 
 npm install firebase --save-dev     - серверна частина firebase
 
@@ -69,6 +70,8 @@ npm install firebase --save-dev     - серверна частина firebase
 <Router>
     <Route path=>
 </Router>
+// Виводяться component або функція в render(()=>{})
+
 
 -----JSX-----
 1. Два елементи огортаються одним спільним.
