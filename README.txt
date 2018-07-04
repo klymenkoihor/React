@@ -30,6 +30,7 @@ npm start                       //старт сервера React
 --automatically installed packages from the box:
 react
 react-dom                       //ліба, яка рендерить реакт
+//скрипти:
 react-scripts
 
 -----start existing/downloaded app-----
