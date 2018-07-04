@@ -65,15 +65,15 @@ npm install firebase --save-dev     - серверна частина firebase
     "styled-components": "^3.2.6",
     "react-firebase": "^2.2.8"
 
--------Router--------
+-------Router--------   https://reacttraining.com/
 <Link to=>
 
 <Router>
     <Route path=>
 </Router>
-// Виводяться component або функція в render(()=>{})
+// Виводяться component або функція в render(()=>{}) або children
 
-
+//У Роутера є вбудовані функції для повернення назад і тд
 -----JSX-----
 1. Два елементи огортаються одним спільним.
 2. return jsx береться в дужки
@@ -90,10 +90,12 @@ import  App from "./App"                                       \\import Componen
 
 import 'bootstrap/dist/css/bootstrap.css';                     \\ставиться просто пакет bootstrap
 
-export default App                          \\export DefaultComponent
-export Component                            \\export NotDefaultComponent
+//Імпорт в коді через require. Через import тільки на початку
 
+export default App                          \\export DefaultComponent
+export Component as Comp                    \\export NotDefaultComponent with changed name
 Для файлів з даними треба робити експорт змінної та її імпорт в потрібний файл
+export const name                           \\export of variable
 
 -----Об'ява компонента----- функція -> конструктор -> компонент
 --Простий компонент:
