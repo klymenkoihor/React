@@ -51,6 +51,7 @@ rechart - графіки
 sockette - websocket для react
 redux-thunk - middleware for redux
 vanilla-tilt.js - 3D анімашки на css
+prettier - форматтер коду
 
 npm install firebase --save-dev     - серверна частина firebase
 
