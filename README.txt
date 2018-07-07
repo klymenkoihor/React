@@ -50,10 +50,14 @@ helmet - хедери
 chartjs2 - графіки
 rechart - графіки
 sockette - websocket для react
-redux-thunk - middleware for redux
 vanilla-tilt.js - 3D анімашки на css
 prettier - форматтер коду
 react-router-dom - роутер
+
+
+redux - пакет для створення стора і вкладання даних у нього
+react-redux - пакет для отримання даних зі стора, метод connect
+redux-thunk - middleware for redux (асинхронні запити на сервер)
 
 npm install firebase --save-dev     - серверна частина firebase
 
