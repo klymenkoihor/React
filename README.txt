@@ -52,10 +52,10 @@ rechart - графіки
 sockette - websocket для react
 vanilla-tilt.js - 3D анімашки на css
 prettier - форматтер коду
-react-router-dom - роутер
+react-router-dom - роутер                                       //4056
 
 
-redux - пакет для створення стора і вкладання даних у нього
+redux - пакет для створення стора і вкладання даних у нього     //4091, 4072
 react-redux - пакет для отримання даних зі стора, метод connect
 redux-thunk - middleware for redux (асинхронні запити на сервер)
 
