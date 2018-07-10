@@ -94,9 +94,19 @@ Element.textContent - внутрянка елемента.
 
 Для кожного компонента в export default дописується метод connect, що братиме дані зі стори і
 передаватиме пропсами в компонент.
-В connect передаються методи mapStoreToProps та mapDispatchToProps.
-mapStoreToProps - кладемо стору або її частину в змінну-props
 
+В connect передаються методи mapStoreToProps та mapDispatchToProps.
+mapStoreToProps - кладемо стору або її частину в змінну-props.
+const mapStoreToProps = store => ({data:store})         //data - назва props
+
+mapDispatchToProps - функція, що буде запускати Action
+const mapDispatchToProps = dispatch => ({
+    handleSome: value => dispatch ({
+        ACTION type + payload
+    })
+})
+
+Після діспатча екшена - редьюсер.
 
 -------Router--------   https://reacttraining.com/
 react-router-dom - роутер                                       //4056
