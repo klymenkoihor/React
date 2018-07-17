@@ -114,7 +114,7 @@ react-router-dom - роутер                                       //4056
 <Link to=>
 
 <Router>
-    <Route path=>
+    <Route path=>   - можлива вкладеність роутів
 </Router>
 //Натискаєш на Лінк => він перекидає на сторінку /something.
 //Виконується пошук роута з цією сторінкою і рендериться component або функція в render(()=>{}) або children
