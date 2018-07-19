@@ -45,7 +45,7 @@ npm install --save react-router-dom    - рендер реактівських �
 npm i bootstrap - підключення в App.js - import 'bootstrap/dist/css/bootstrap.css';
 
 react final form - ліба по формах - downshift - множинний селект РОЗІБРАТИСЯ!
-axios - асинхронна ліба замість - async await - це в коробцы з ES7
+axios - асинхронна ліба замість - async await - це в коробцы з ES7 - setState в then
 helmet - хедери
 chartjs2 - графіки
 rechart - графіки
