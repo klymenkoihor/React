@@ -54,9 +54,6 @@ vanilla-tilt.js - 3D анімашки на css
 prettier - форматтер коду
 
 
-
-
-
 npm install firebase --save-dev     - серверна частина firebase
 
 Установка через package.json dependencies:
