@@ -106,7 +106,7 @@ const mapDispatchToProps = dispatch => ({
 Після діспатча екшена - редьюсер.
 
 -------Router--------   https://reacttraining.com/
-react-router-dom - роутер                                       //4056
+react-router-dom - роутер                                       //4056, 4034 - прості приклади
 
 <Link to=>
 
