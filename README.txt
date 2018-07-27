@@ -102,7 +102,6 @@ const mapDispatchToProps = dispatch => ({
         ACTION type + payload
     })
 })
-
 Після діспатча екшена - редьюсер.
 
 -------Router--------   https://reacttraining.com/
