@@ -101,6 +101,7 @@ const mapDispatchToProps = dispatch => ({
     handleSome: value => dispatch ({
         ACTION type + payload
     })
+
 })
 Після діспатча екшена - редьюсер.
 
